@@ -65,23 +65,34 @@ li{
     justify-content: flex-end;
     align-items: center;
     align-content: center;
+    height:2.5rem;
+    text-align: center;
+}
 
+.todotext{
+    text-align: justify;
 }
 
 .listContainer{
     display: flex;
     flex-direction: row;
-
     width:90%;
+    flex-wrap: wrap;
 }
 .firstListContainer{
     flex:0.25;
+    margin-left: 10px;
+    align-items: center;
+
 }
 .secondListContainer{
     flex:7;
+    align-items: center;
+
 }
 .thirdListContainer{
     flex:1;
+    align-items: center;
 }
 .multidel{
     visibility: hidden;
