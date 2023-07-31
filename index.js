@@ -23,12 +23,12 @@ $(document).ready(function(){
         $('#todoList').append('<li class="todoDone" id= "todoItem listitem'+index+'"'+
                               '<div class= "listContainer">'+
                                     '<div class= "listContainer firstListContainer form-check">'+
-                                        '<input class="form-check-input" type="checkbox" name = "type" value="'+index+'" id="flexCheckDefault">'+
+                                        '<input class="form-check-input checkbox" type="checkbox" name = "type" value="'+index+'" id="flexCheckDefault">'+
                                     '</div>'+
 
-                                    '<div class= "listContainer secondListContainer">'+
+                                    '<div class= "listContainer secondListContainer"><p class = "todotext">'+
                                         item+
-                                    '</div>'+
+                                    '</p></div>'+
                                     '<div class= "listContainer thirdListContainer">'+
                                         '<button type="button" class="btn btn-danger deleteButton" id = "todoItem delete'+index+'">Delete</button>'+
                                     '</div>'+
