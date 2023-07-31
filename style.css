@@ -89,6 +89,8 @@ li{
 .secondListContainer{
     flex:7;
     align-items: center;
+    min-width: 0;
+    word-break: break-all;
 
 }
 .thirdListContainer{
@@ -98,3 +100,5 @@ li{
 .multidel{
     visibility: hidden;
 }
+
+
